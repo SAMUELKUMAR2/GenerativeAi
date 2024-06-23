@@ -1,7 +1,7 @@
 export const fetchResponse =  async(chat) => {
     try {
         // after depoloyment you should change the fetch URL below
-        const response = await fetch('http://localhost:3080', { 
+        const response = await fetch('https://generativeai-1-wsi4.onrender.com', { 
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
